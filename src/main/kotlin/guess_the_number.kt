@@ -1,11 +1,9 @@
 import java.util.*
-//import kotlin.random.Random
-
 fun main(args: Array<String>) {
     welcome()
 
-   println( ClassicGame.startGame() )
-
+   //ClassicGame.startGame()
+    CountAttempts.startGame()
 }
 
 fun welcome() {
