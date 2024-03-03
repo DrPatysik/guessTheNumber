@@ -3,7 +3,8 @@ fun main(args: Array<String>) {
     welcome()
 
    //ClassicGame.startGame()
-    CountAttempts.startGame()
+    // CountAttempts.startGame()
+    CustomGame.startGame()
 }
 
 fun welcome() {
