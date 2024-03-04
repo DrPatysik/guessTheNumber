@@ -9,6 +9,7 @@ class ClassicGame () {
 
 
         fun startGame() {
+            println("Beginning of the game!")
             var randomNumber:Int = Random.nextInt(1, 11)
             println(randomNumber)
 

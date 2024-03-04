@@ -10,6 +10,7 @@ class CustomGame {
 
 
         fun startGame() {
+            println("Beginning of the game!")
             range = createRange()
             counter = createAttempts()
 

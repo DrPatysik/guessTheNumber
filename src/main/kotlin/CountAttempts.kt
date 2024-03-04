@@ -3,12 +3,13 @@ import kotlin.random.Random
 
 class CountAttempts () {
     companion object {
+
         private var playerNumber:Int = 0
         private var agree:Boolean = true
         private var counter = 0
 
-
         fun startGame() {
+            println("Beginning of the game!")
             var randomNumber:Int = Random.nextInt(1, 101)
             println(randomNumber)
 
@@ -58,7 +59,6 @@ class CountAttempts () {
         }
 
         private fun newNumber():Int {
-           // println("You have $counter attempts! ")
             println(" Print any number from 1 until 100. ")
             return Scanner(System.`in`).nextInt()
         }
